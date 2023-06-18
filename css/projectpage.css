@@ -1,0 +1,52 @@
+section {
+    display: flex;
+    margin: auto 10%;
+    flex-direction:column;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 32px;
+    font-family: 'Libre Caslon Display', serif;
+    font-variant: small-caps;
+    text-align: center;
+    color: #4a2d3a;
+}
+
+p {
+    font-family: 'Libre Caslon Text', serif;
+    margin: 10px 10%;
+}
+
+figure {
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Libre Caslon Text', serif;
+    color: #4a2d3a;
+}
+
+.gallery {
+    display: flex;
+    margin: 0;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery figure {
+    padding: 20px;
+    margin: 0;
+}
+
+embed {
+    margin: 0 auto;
+}

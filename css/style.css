@@ -1,0 +1,214 @@
+/* font-family: 'Libre Caslon Display', serif;
+font-family: 'Libre Caslon Text', serif; */
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5E8C7;
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    font-size: 110px;
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Libre Caslon Display', serif;
+    font-variant: small-caps;
+    color: #4a2d3a;
+}
+
+nav {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4a2d3a;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Libre Caslon Display', serif;
+    font-variant: small-caps;
+}
+
+nav a:hover {
+    color: #eee5d0;
+    transition: .2s ;
+}
+
+nav span {
+    font-size: 48px;
+    font-family: 'Libre Caslon Display', serif;
+    color: #4a2d3a;
+}
+
+li {
+    display: inline-block;
+}
+
+.topbar {
+    background-color: #DEBA9D;
+    width: 100%;
+    margin: 0;
+}
+
+section {
+    background-color: #F5E8C7;;
+    display: flex;
+    padding: 40px;
+    margin: auto 0;
+}
+
+.about {
+    border-right: 4px solid #DEBA9D;
+    padding-right:20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.about a {
+    flex: 1;
+}
+.about p {
+    flex: 1;
+}
+.about img {
+    flex: 1;
+}
+.about h2 {
+    flex: 1;
+}
+
+.magazine {
+    border-right: 4px solid #DEBA9D;
+    padding: 0 20px; 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.magazine a {
+    flex: 1;
+}
+.magazine p {
+    flex: 1;
+}
+.magazine img {
+    flex: 1;
+}
+.magazine h2 {
+    flex: 1;
+}
+
+.poster {
+    border-right: 4px solid #DEBA9D;
+    padding: 0 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.poster a {
+    flex: 1;
+}
+.poster p {
+    flex: 1;
+}
+.poster img {
+    flex: 1;
+}
+.poster h2 {
+    flex: 1;
+}
+
+.projects {
+    padding: 0 0 0 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects a {
+    flex: 1;
+}
+.projects p {
+    flex: 1;
+}
+.projects img {
+    flex: 1;
+}
+.projects h2 {
+    flex: 1;
+}
+
+section a {
+    text-align:end;
+    font-family: 'Libre Caslon Text', serif;
+    text-decoration: none;
+    color: #F68989;
+}
+
+section a:hover {
+    color: #a4576d;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Libre Caslon Display', serif;
+    font-variant: small-caps;
+    color: #4a2d3a;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Libre Caslon Text', serif;
+    color: #4a2d3a;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #DEBA9D;
+    width: 100%;
+    margin: auto 0 0;
+    padding: 20px 0; 
+}
+
+.bottombar {
+    margin: auto;
+    width: fit-content;
+    padding: 0;
+}
+
+.bottombar a {
+    font-size: 32px;
+    font-family: 'Libre Caslon Display', serif;
+    font-variant: small-caps;
+    color: #4a2d3a;
+}
+
+.bottombar span {
+    font-size: 32px;
+    font-family: 'Libre Caslon Display', serif;
+    color: #4a2d3a;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Libre Caslon Text', serif;
+    color: #4a2d3a;
+}
