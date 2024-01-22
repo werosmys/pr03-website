@@ -1,50 +1,43 @@
+/* Structure */
+
 section {
-    display: flex;
-    margin: auto 10%;
-    flex-direction:column;
+    margin: auto 1em 3em;
 }
 
-h2 {
-    font-size: 48px;
+.poison, .beans, .page {
+    padding: 2em 0;
+    border-top: 4px dotted #DEBA9D;
+} 
+
+.poison {
+    margin-top: 2em;
 }
+
+.page {
+    padding-bottom: 0;
+}
+
+/* Typography */
 
 h3 {
     font-size: 32px;
-    font-family: 'Libre Caslon Display', serif;
-    font-variant: small-caps;
-    text-align: center;
-    color: #4a2d3a;
+    margin: 0.7em 0 0;
 }
 
 p {
-    font-family: 'Libre Caslon Text', serif;
-    margin: 10px 10%;
-}
-
-figure {
-    margin: auto;
+    margin: 0.6em 2em;
 }
 
 figcaption {
     text-align: center;
-    margin: 10px;
-    font-size: 16px;
-    font-family: 'Libre Caslon Text', serif;
-    color: #4a2d3a;
+    margin: 0.3em;
+    font-size: 14px;
 }
 
-.gallery {
-    display: flex;
-    margin: 0;
-}
+/* Images */
 
-.gallery img {
-    width: 100%;
-}
-
-.gallery figure {
-    padding: 20px;
-    margin: 0;
+figure {
+    margin: auto;
 }
 
 embed {
