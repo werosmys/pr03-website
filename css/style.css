@@ -89,7 +89,7 @@ h6 {
 
 p,
 a,
-li, 
+li,
 figcaption {
     font-family: 'Libre Caslon Text', serif;
     color: #4a2d3a;
@@ -101,6 +101,7 @@ h1 {
     margin: 0;
     font-size: 64px;
     line-height: 0.9em;
+    text-decoration: underline;
 }
 
 h2 {
@@ -138,7 +139,8 @@ img {
 
 /* Links */
 
-section a, section a:visited {
+section a,
+section a:visited {
     text-decoration: underline;
     color: #b86767;
 }
@@ -147,6 +149,97 @@ a:visited {
     color: #4a2d3a;
 }
 
-a:hover, a:active {
-    color:#eee5d0;
+a:hover,
+a:active {
+    color: #eee5d0;
+}
+
+/* Media Queries */
+
+/* Tablets */
+
+@media (min-width: 750px) {
+
+    /* Positioning */
+    .topbar,
+    footer {
+        padding: 4em 0 2em;
+    }
+
+    nav {
+        width: 60%;
+        margin: 1.5em auto 0;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about, .poster {
+        margin: 2em 1em 2em auto; 
+        border-bottom: none;
+    }
+
+    .magazine, .projects {
+        margin: 2em auto 2em 1em; 
+        border-bottom: none;
+    }
+
+    /* Typography */
+
+    nav li {
+        font-size: 32px;
+    }
+
+    nav span {
+        font-size: 48px;
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+
+}
+
+/* Desktops / Laptops */
+
+@media (min-width: 1200px) {
+
+    /* Positioning */
+
+    .topbar,
+    footer {
+        padding: 3em 0 2em;
+    }
+
+    section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 2em;
+    }
+
+    .about, .magazine, .poster {
+         border-right: 4px dotted #DEBA9D;
+         padding-right: 2em;
+
+    }
+
+    .projects img {
+        width: 90%;
+    }
+
+    /* Typography */
+
+    h1 {
+        font-size:106px;
+    }
+
+    nav li {
+        font-size: 48px;
+    }
+
+    nav span {
+        font-size: 64px;
+    }
+
 }

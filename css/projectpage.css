@@ -4,10 +4,12 @@ section {
     margin: auto 1em 3em;
 }
 
-.poison, .beans, .page {
+.poison,
+.beans,
+.page {
     padding: 2em 0;
     border-top: 4px dotted #DEBA9D;
-} 
+}
 
 .poison {
     margin-top: 2em;
@@ -40,6 +42,75 @@ figure {
     margin: auto;
 }
 
-embed {
+.embed {
     margin: 0 auto;
+}
+
+/* Media Queries */
+
+/* Tablets */
+
+@media (min-width: 750px) {
+
+    .embed {
+        width: 80%;
+    }
+
+    section {
+        display: block;
+        margin-bottom: 6em;
+    }
+
+    section p {
+        margin: 1em 2em;
+    }
+
+    figure {
+        width: 40%;
+        margin: 4em;
+    }
+
+    .float-right {
+        float: right;
+    }
+
+    .page:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .beans:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .posion:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+/* Desktops / Laptops */
+
+@media (min-width: 1200px) {
+
+    section {
+        margin: 4em 12em 8em;
+    }
+
+    embed {
+        height: 650px;
+    }
+
+    figure {
+        width: 30%;
+    }
+
+    .poison{
+        padding: 2em 0 6em;
+    }
+
 }
